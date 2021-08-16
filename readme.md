@@ -1,0 +1,1 @@
+this program calculates the factorial of any given number. If user enters a negative number then the program asks the user to re-enter the number
