@@ -4,9 +4,7 @@ using namespace std;
 int factorial(int n){
     if(n<0)
     {   
-        printf("re-enter a positive number: \n");
-        cin>>n;
-        return factorial(n);
+        return -1;
     }
     if(n==1) return 1;
 
