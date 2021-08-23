@@ -6,8 +6,8 @@ int main(){
     cout<< endl;
     int n;
     
-    cout<<"enter a number: ";
+    printf("Enter a number: \n");
     cin>>n;
-    cout<<"The factorial of "<<n<< " is "<< factorial(n)<< endl;
+    printf("The factorial of %d is %d", n, factorial(n));
     return 0;
 }
