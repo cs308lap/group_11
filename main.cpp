@@ -12,6 +12,7 @@ int main(){
 
     int x= 56, y = 98;
     cout << "GCD of " << x << ", " << y << " is: " << gcd(x, y) << "\n";
+    cout << "GCD of " << x << ", " << y << " is: " << gcd_recursive(x, y) << "\n";
 
     return 0;
 }
