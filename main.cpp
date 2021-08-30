@@ -8,6 +8,10 @@ int main(){
     
     cout << "Enter a number: \n";
     cin>>n;
-    cout << "The factorial of " << n << " is: " << factorial(n);
+    cout << "The factorial of " << n << " is: " << factorial(n) << "\n";
+
+    int x= 56, y = 98;
+    cout << "GCD of " << x << ", " << y << " is: " << gcd(x, y) << "\n";
+
     return 0;
 }
